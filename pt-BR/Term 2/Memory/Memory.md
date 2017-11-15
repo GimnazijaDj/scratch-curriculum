@@ -56,7 +56,7 @@ Primeiro vamos criar um personagem que possa mudar de cor seguindo uma sequênci
 		quando clicar em ⚑
 		apague (todos v) de [sequencia v]
 		repita (5) vezes
-			insira (escolha número entre (1) e (4)) a [sequencia v]
+			adiciona (número aleatório entre (1) e (4)) a [sequencia v]
 			mude para a fantasia (item (ultimo v) de [sequencia v])
 			espere (1) seg
 		end
@@ -88,7 +88,7 @@ Vamos adicionar 4 botões, para que o jogador repita a sequência que ele tentou
 		quando este ator for clicado
 		envie [vermelho v] a todos
 	```
-	
+
 + Quando o ator receber a mensagem, ele deve verificar se o número 1 está no início da lista (o que significa que vermelho é a próxima cor na sequência). Se for, você pode remover este número da lista, já que ele foi memorizado corretamente. Caso contrário, será fim de jogo!
 
 	```blocks
