@@ -105,7 +105,7 @@ Sada ćemo programirati bubanj tako da proizvede zvuk svaki puta kada ga se udar
 
 	![screenshot](band-looks.png)
 
-	Naredba za promjenu kostima nalazi se u kartici 'Izgled' {.blocklooks}
+	Naredba za promjenu kostima nalazi se u kartici `Izgled` {.blocklooks}.
 
 + Isprobaj svoj bubanj. Kada se na njega klikne, trebao bi izgledati kao da je udaren!
 
@@ -119,7 +119,7 @@ Sada ćemo programirati bubanj tako da proizvede zvuk svaki puta kada ga se udar
 
 ![screenshot](band-drum-sound.png)
 
-+ Možeš li postići da bubanj proizvede zvuk kada se pritisne razmaknica? Trebat će ti naredba {.blockevents}:
++ Možeš li postići da bubanj proizvede zvuk kada se pritisne razmaknica? Trebat će ti naredba iz skupine `Događaji` {.blockevents}:
 
 ```blocks
 	kada je tipka [razmaknica v] pritisnuta
