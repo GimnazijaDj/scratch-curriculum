@@ -61,10 +61,10 @@ Sada kada imamo robota, programirajmo ga da govori.
 
 + Tvoj robot svaki put odgovara `Kakvo lijepo ime!`. Možeš prilagoditi njegov odgovor tako da iskoristiš odgovor koji je upisao korisnik. Promjeni kôd, tako da izgleda ovako:
 
-	```blokovi
+	```blocks
 		kada je lik kliknut
 		pitaj [Bok! Kako se zoveš?] i čekaj
-		reci  <priključi[Bok] (odgovor)> (2) sekunde
+		reci  <priključi [Bok] (odgovor)> (2) sekunde
 	```
 
 	Za stvaranje zadnjeg bloka potrebno je najprije dovući zeleni blok `spoji` {.blockoperators}, a zatim ga prevući na ljubičasti blok `govori` {.blocklooks}, kao na slici:
@@ -83,7 +83,7 @@ Sada promijeni tekst `hello` u `Bok` i dovuci svijetlo plavi blok  `odgovor` {.b
 
 + Nakon kreiranja nove varijable potrebno je prilagoditi i kôd:
 
-	```blokovi
+	```blocks
 		kada klikneš na ovaj lik
 		pitaj [Bok! Kako se zoveš?] i čekaj
 		postavi  [ime v] za (odgovor)
@@ -114,7 +114,7 @@ Možeš programirati robota da odluči što će napraviti ovisno o tome koji je 
 
 + Sada ćemo reći robotu da postavi korisniku pitanje na koje on može odgovoriti s `da` ili `ne`. Pogledaj primjer. Ti slobodno koristi neko drugo pitanje: 
 
-	```blokovi
+	```blocks
 		kad klikneš na lik
 		pitaj [Bok! Kako se zoveš?] i čekaj
 		namjesti [ime v] na (odgovor)
@@ -131,7 +131,7 @@ Primjeti, zbog toga što je korisnikovo ime spremljeno u varijablu, možeš ga k
 
 + Problem s robotom je u tome što ne daje nikakav odgovor kada korisnik upiše `ne`. To se može ispraviti tako da se blok `ako` {.blockcontrol} zamijeni blokom  `ako/inače` {.blockcontrol}. Zamijeni blokove tako da tvoj program sada izgleda ovako:
 
-	```blokovi
+	```blocks
 		kada klikneš na lik
 		pitaj[Bok! Kako se zoveš?] i čekaj
 		postavi [ime v] na (odgovr)
@@ -184,7 +184,7 @@ Robota možemo isprogramirati i tako da promjeni mjesto na kojem se nalazi.
 
 + Sljedećim naredbama promjenit ćemo mjesto robotu:
 
-	```blokovi
+	```blocks
 		pitaj[Idem na Mjesec. Želiš li poći samnom?] i čekaj
 		ako((odgovor) = [da]) tada
 			promijeni pozadinu u [mjesec v]
@@ -221,7 +221,7 @@ Robota možemo isprogramirati i tako da promjeni mjesto na kojem se nalazi.
 ## Izazov: Napravi svog robota {.challenge}
 Iskoristi naučeno za dovršetak svog interaktivnog robota. Ovdje su neke ideje:
 
-![screenshot](chatbot-ideas.PNG)
+![screenshot](chatbot-ideas.png)
 
 Kada zavrišiš svog robota, pozovi svoje prijatelje da razgovaraju s njim. Sviđa li im se tvoj lik? Jesu li uočili kakve probleme?
 
